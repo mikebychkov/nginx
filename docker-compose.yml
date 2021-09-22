@@ -12,3 +12,4 @@ services:
     - ./conf.d:/etc/nginx/conf.d
     - ./sites:/sites
     - ./ssl:/etc/nginx/ssl
+    - ./.htpasswd:/etc/nginx/.htpasswd
